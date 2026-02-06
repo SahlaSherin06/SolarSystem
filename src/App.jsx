@@ -6,7 +6,6 @@ import Sun from "./components/Sun";
 import Planet from "./components/Planet";
 import SaturnGroup from "./components/SaturnGroup";
 import OrbitRing from "./components/OrbitRing";
-import Airplane from "./components/Airplane";
 
 
 function App() {
@@ -32,9 +31,6 @@ function App() {
 
         {/* SUN */}
         <Sun />
-
-        {/* AIRPLANE */}
-        <Airplane/>
 
         {/* PLANETS */}
         {planets.map((planet) => (
